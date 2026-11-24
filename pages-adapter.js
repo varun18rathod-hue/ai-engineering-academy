@@ -1,7 +1,8 @@
 /* GitHub Pages storage adapter. No credentials or study records are shipped. */
 'use strict';
 (() => {
-  const KEY = 'ai-academy-progress-v1';
+  const QA = Boolean(window.location?.search && new URLSearchParams(window.location.search).get('qa') === '1');
+  const KEY = QA ? 'ai-academy-qa-v1' : 'ai-academy-progress-v1';
   const clone = value => JSON.parse(JSON.stringify(value));
   const timestamp = () => new Date().toISOString();
   let course, record;
@@ -156,7 +157,7 @@
     record = read();
     const url = new URL(path,'https://classroom.invalid');
     if (url.pathname === '/api/bootstrap') return {
-      hosted:true,token:'',qa:false,speech:{available:false,voices:[]},job:null,recordings:course.recordings||null,
+      hosted:true,token:'',qa:QA,speech:{available:false,voices:[]},job:null,recordings:course.recordings||null,
       tutor:{available:false,label:'Continue in ChatGPT',detail:'Copy your question and lesson, then open ChatGPT.'},
       lessons:course.lessons.map(lesson=>({...lesson,quiz:lesson.quiz.map(({correct,explanation,...question})=>question)})),
       levels:course.levels,state:snapshot(),
