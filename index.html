@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f6fb">
+  <meta name="description" content="Your personal AI classroom. Learn one idea, try it yourself, and ask your tutor when you need help.">
+  <title>AI Academy · Your classroom</title>
+  <link rel="icon" href="./mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./pages-adapter.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to lesson</a>
+  <div id="app"><div class="loading-screen"><span class="brand-mark">a</span><h1>Opening your classroom</h1><p>Your place is saved privately in this browser.</p></div></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="reading-dialog" aria-labelledby="reading-title">
+    <div class="dialog-top"><h2 id="reading-title">Make yourself comfortable</h2><button class="icon-button" id="close-reading" aria-label="Close reading settings">×</button></div>
+    <p>Choose how your lessons and tutor replies sound.</p>
+    <label for="voice-select">Reading voice</label><select id="voice-select"><option value="">Default device voice</option></select>
+    <label for="speed-select">Reading speed</label><select id="speed-select"><option value="0.75">Slow · 0.75×</option><option value="0.9">Gentle · 0.9×</option><option value="1">Normal · 1×</option><option value="1.15">Faster · 1.15×</option></select>
+    <label class="checkbox-label"><input id="auto-read" type="checkbox" disabled> Read new tutor replies aloud (local classroom only)</label>
+    <p class="fine-print">Available voices depend on this device and browser. Voices marked “online” may send text to their voice service.</p>
+    <button id="test-voice" class="primary-button">Try this voice</button>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,808 @@
+{
+  "lessons": [
+    {
+      "id": "day-1",
+      "day": 1,
+      "title": "You ask. AI answers.",
+      "subtitle": "Start with the AI tools you already know.",
+      "objective": "Recognize a prompt and an output, then see how AI, ML, and deep learning fit together.",
+      "steps": [
+        {
+          "title": "Prompt and output",
+          "tag": "Start with something familiar",
+          "paragraphs": [
+            "You already use ChatGPT, Claude Code, and Codex. We can begin with something you do every day: sending a message and receiving a reply.",
+            "A prompt is the message you give an AI. The output is what it gives back. An output can be a picture, a written reply, or code."
+          ],
+          "visual": "prompt",
+          "example": [
+            "Your prompt",
+            "Make a picture of a red car.",
+            "The output",
+            "The picture the AI creates."
+          ],
+          "takeaway": "Prompt = what you send. Output = what comes back."
+        },
+        {
+          "title": "What does AI mean?",
+          "tag": "One new idea",
+          "paragraphs": [
+            "AI stands for artificial intelligence. It is a broad field of making computers do tasks such as recognizing pictures or understanding language.",
+            "A computer does not need human feelings or understanding to produce a useful answer. Its answer can still be wrong, so we check the result."
+          ],
+          "visual": "check",
+          "example": [
+            "A useful check",
+            "You ask for a red car.",
+            "Look at the result",
+            "Is the car actually red?"
+          ],
+          "takeaway": "A confident answer still needs checking."
+        },
+        {
+          "title": "The AI family",
+          "tag": "See the whole picture",
+          "paragraphs": [
+            "Machine learning, or ML, is one way of building AI. We use examples to adjust a model. A model is a mathematical system that turns an input into an output.",
+            "Deep learning is a kind of machine learning that uses neural networks with many layers. A neural network is a set of connected calculations.",
+            "Think of boxes inside boxes. Deep learning fits inside ML, and ML fits inside AI. Some AI methods do not use ML."
+          ],
+          "visual": "family",
+          "takeaway": "Deep learning is part of ML. ML is part of AI."
+        }
+      ],
+      "practice": {
+        "kind": "reflection",
+        "title": "Write your own image request",
+        "instruction": "Write one short prompt for an image you would like. On the next line, describe what you would check in the finished image.",
+        "placeholder": "My prompt: ...\nI would check: ..."
+      },
+      "quiz": [
+        {
+          "text": "You type “Make a picture of a red car.” What is that message?",
+          "options": [
+            "The output",
+            "The prompt",
+            "A Python file"
+          ],
+          "correct": 1,
+          "explanation": "The message you give the AI is the prompt."
+        },
+        {
+          "text": "The AI gives you a picture. What is the picture?",
+          "options": [
+            "The output",
+            "The prompt",
+            "A command you typed"
+          ],
+          "correct": 0,
+          "explanation": "The picture is the result the AI produced: its output."
+        },
+        {
+          "text": "Which is the broadest field?",
+          "options": [
+            "Deep learning",
+            "Machine learning",
+            "AI"
+          ],
+          "correct": 2,
+          "explanation": "AI is the broad field. ML and deep learning sit inside it."
+        },
+        {
+          "text": "A reply sounds confident. What should you do?",
+          "options": [
+            "Assume it is correct",
+            "Check it against the request",
+            "Delete the request"
+          ],
+          "correct": 1,
+          "explanation": "Confidence does not prove correctness. Check the result."
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "day": 2,
+      "title": "Give your work a home.",
+      "subtitle": "Understand files, folders, and saving.",
+      "objective": "Explain the difference between a file and a folder, and describe where your practice belongs.",
+      "steps": [
+        {
+          "title": "Files and folders",
+          "tag": "Computer basics",
+          "paragraphs": [
+            "A file is one saved item, such as a photo, a lesson, or a program. A folder is a container that holds files and other folders.",
+            "Think of a file as one page and a folder as the binder that holds the pages."
+          ],
+          "visual": "folders",
+          "takeaway": "A file holds content. A folder keeps items together."
+        },
+        {
+          "title": "What is a path?",
+          "tag": "Find your work again",
+          "paragraphs": [
+            "A path tells the computer where an item is. It is like an address for a file.",
+            "Your course lives in D:\\AI Engineering Academy. Your small coding attempts belong in 02_Practice. The name at the end of a path identifies the file."
+          ],
+          "code": "D:\\AI Engineering Academy\\02_Practice\\Day_001\\my_first_program.py",
+          "takeaway": "Read a path from the larger location toward the file."
+        },
+        {
+          "title": "Save before you run",
+          "tag": "A useful habit",
+          "paragraphs": [
+            "Editing changes what you see in the editor. Saving writes that change to the file. In VS Code, Ctrl+S saves the open file.",
+            "If you change a sentence but run an older saved version, the computer may still show the old sentence. Check the file name and save again."
+          ],
+          "visual": "save",
+          "takeaway": "Edit, save, then run."
+        }
+      ],
+      "practice": {
+        "kind": "reflection",
+        "title": "Find your practice folder",
+        "instruction": "Open your academy folder in File Explorer. Find 02_Practice. In your own words, write what belongs in this folder and how a file differs from a folder.",
+        "placeholder": "A file is ...\nA folder is ...\n02_Practice is for ..."
+      },
+      "quiz": [
+        {
+          "text": "Which item is a file?",
+          "options": [
+            "A saved photo named chair.png",
+            "A container called Projects",
+            "The D: drive"
+          ],
+          "correct": 0,
+          "explanation": "chair.png is one saved item: a file."
+        },
+        {
+          "text": "What does a folder do?",
+          "options": [
+            "Runs every program",
+            "Holds files and other folders",
+            "Guarantees code is correct"
+          ],
+          "correct": 1,
+          "explanation": "Folders organize files and other folders."
+        },
+        {
+          "text": "What does a path describe?",
+          "options": [
+            "Where an item is",
+            "How smart an AI is",
+            "How long a lesson takes"
+          ],
+          "correct": 0,
+          "explanation": "A path gives the location of an item."
+        },
+        {
+          "text": "You changed code in VS Code. What should you do before running it?",
+          "options": [
+            "Rename the whole course",
+            "Close Windows",
+            "Save the file"
+          ],
+          "correct": 2,
+          "explanation": "Save so the computer runs the changed file."
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "day": 3,
+      "title": "Run your first Python.",
+      "subtitle": "Tell the computer to show a sentence.",
+      "objective": "Predict and run a print instruction, then change it yourself.",
+      "steps": [
+        {
+          "title": "A program is instructions",
+          "tag": "Your first code",
+          "paragraphs": [
+            "A program is a set of instructions a computer can run. Python is the programming language we will start with.",
+            "Code does not need AI to be useful. A program can simply follow the instructions you write."
+          ],
+          "visual": "program",
+          "takeaway": "Code tells the computer what to do."
+        },
+        {
+          "title": "Meet print",
+          "tag": "Read this one line",
+          "paragraphs": [
+            "print asks Python to show something. The quotation marks tell Python where your text begins and ends.",
+            "The parentheses hold what you give to print. Before running this line, predict what you will see."
+          ],
+          "code": "print(\"I am learning Python.\")",
+          "example": [
+            "Expected output",
+            "I am learning Python.",
+            "Notice",
+            "The quotation marks do not appear in the output."
+          ],
+          "takeaway": "print shows text or a value."
+        },
+        {
+          "title": "Change one thing",
+          "tag": "Learn by trying",
+          "paragraphs": [
+            "Run the example in the practice pad. Then change the sentence to something you want to say and run it again.",
+            "A mistake is useful information. If you see an error, read it and check the quotes and parentheses. You can ask the tutor for one hint."
+          ],
+          "visual": "save",
+          "takeaway": "Predict, run, compare, then change."
+        }
+      ],
+      "practice": {
+        "kind": "python",
+        "title": "Make Python say something you choose",
+        "instruction": "First run this demonstration. Then change the text to your own sentence and run it again. The pad supports print, variables, and simple arithmetic.",
+        "starter": "print(\"I am learning Python.\")",
+        "placeholder": ""
+      },
+      "quiz": [
+        {
+          "text": "What does print do?",
+          "options": [
+            "Shows a value or text",
+            "Trains an AI model",
+            "Creates a folder"
+          ],
+          "correct": 0,
+          "explanation": "print displays text or values."
+        },
+        {
+          "text": "What appears after print(\"Hello\")?",
+          "options": [
+            "\"Hello\" with quotes",
+            "Hello",
+            "print"
+          ],
+          "correct": 1,
+          "explanation": "The quotes mark the text in code; they are not printed."
+        },
+        {
+          "text": "What is Python?",
+          "options": [
+            "A programming language",
+            "A saved picture",
+            "A kind of folder"
+          ],
+          "correct": 0,
+          "explanation": "Python is a language for writing programs."
+        },
+        {
+          "text": "You see an error. What is a useful next step?",
+          "options": [
+            "Guess forever",
+            "Stop learning",
+            "Read the message and check the relevant line"
+          ],
+          "correct": 2,
+          "explanation": "Error messages give clues. Start with the line they point to."
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "day": 4,
+      "title": "Predict before you run.",
+      "subtitle": "Follow a program one line at a time.",
+      "objective": "Predict printed text and simple arithmetic results.",
+      "steps": [
+        {
+          "title": "Order matters",
+          "tag": "Trace the instructions",
+          "paragraphs": [
+            "For these simple programs, Python follows each line from top to bottom. The first print appears before the second.",
+            "Tracing means following the instructions in your head. Predicting first helps you notice when your understanding differs from the result."
+          ],
+          "code": "print(\"First\")\nprint(\"Second\")",
+          "takeaway": "Follow one line, then the next."
+        },
+        {
+          "title": "Text or a calculation?",
+          "tag": "Look at the quotes",
+          "paragraphs": [
+            "Text inside quotes is called a string. Python prints it as text. A calculation without quotes can produce a number.",
+            "Compare the two lines. One shows the symbols 2 + 3. The other calculates their total."
+          ],
+          "code": "print(\"2 + 3\")\nprint(2 + 3)",
+          "example": [
+            "First line",
+            "2 + 3",
+            "Second line",
+            "5"
+          ],
+          "takeaway": "Quotes make text. Without quotes, 2 + 3 is a calculation."
+        },
+        {
+          "title": "Your prediction is evidence",
+          "tag": "Check your thinking",
+          "paragraphs": [
+            "A surprising result does not mean you are bad at coding. It shows exactly which idea to investigate.",
+            "Write your prediction, run the code, and compare. Change one small part to test what you think it does."
+          ],
+          "visual": "check",
+          "takeaway": "A prediction makes a useful experiment."
+        }
+      ],
+      "practice": {
+        "kind": "python",
+        "title": "Try text and numbers",
+        "instruction": "Predict both lines before running. Then choose different numbers and compare text with a calculation.",
+        "starter": "print(\"4 + 6\")\nprint(4 + 6)"
+      },
+      "quiz": [
+        {
+          "text": "What does print(2 + 3) show?",
+          "options": [
+            "2 + 3",
+            "5",
+            "23"
+          ],
+          "correct": 1,
+          "explanation": "Without quotes, Python adds the numbers."
+        },
+        {
+          "text": "What does print(\"2 + 3\") show?",
+          "options": [
+            "2 + 3",
+            "5",
+            "An AI model"
+          ],
+          "correct": 0,
+          "explanation": "The quoted characters are printed as text."
+        },
+        {
+          "text": "Which line runs first in our simple examples?",
+          "options": [
+            "The last line",
+            "A random line",
+            "The top line"
+          ],
+          "correct": 2,
+          "explanation": "These instructions run from top to bottom."
+        },
+        {
+          "text": "Why predict before running?",
+          "options": [
+            "To avoid ever using Python",
+            "To compare your understanding with the result",
+            "To guarantee no bugs"
+          ],
+          "correct": 1,
+          "explanation": "Comparing a prediction with the result helps you learn."
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "day": 5,
+      "title": "Rules and learned patterns.",
+      "subtitle": "See two ways a computer can make a decision.",
+      "objective": "Distinguish a written rule from learning from examples.",
+      "steps": [
+        {
+          "title": "A rule you write",
+          "tag": "An explicit decision",
+          "paragraphs": [
+            "Imagine sorting images by file name. You write a rule: if a name contains chair, put it in the chair group.",
+            "The computer follows that exact rule. It does not discover a visual pattern from training photos."
+          ],
+          "example": [
+            "Written rule",
+            "A file name contains chair.",
+            "Possible mistake",
+            "A table photo named chair.png goes in the chair group."
+          ],
+          "takeaway": "A written rule follows the condition you specify."
+        },
+        {
+          "title": "Learning from examples",
+          "tag": "Machine learning",
+          "paragraphs": [
+            "Instead, you could show a model many photos labeled chair or table. Training adjusts its settings using those examples.",
+            "Then you test it on different photos. This is important: remembering training examples does not prove it will work on new ones."
+          ],
+          "visual": "training",
+          "takeaway": "Training uses examples. Testing checks different examples."
+        },
+        {
+          "title": "Both approaches have limits",
+          "tag": "Choose and check",
+          "paragraphs": [
+            "A simple written rule can be a good choice for a clear task. Machine learning can help when patterns are harder to describe by hand.",
+            "Both can fail. An engineer checks the result and chooses an approach that fits the task. More complicated is not automatically better."
+          ],
+          "visual": "check",
+          "takeaway": "Pick a suitable approach, then test it."
+        }
+      ],
+      "practice": {
+        "kind": "reflection",
+        "title": "Spot a weakness in a rule",
+        "instruction": "A program puts every file whose name contains cat into a cat-photo group. Describe one case where this rule could give a wrong result.",
+        "placeholder": "The rule could be wrong when ..."
+      },
+      "quiz": [
+        {
+          "text": "A developer writes every sorting condition. What is the program using?",
+          "options": [
+            "Only learned photo patterns",
+            "Explicit rules",
+            "No instructions"
+          ],
+          "correct": 1,
+          "explanation": "The developer supplied the conditions explicitly."
+        },
+        {
+          "text": "What does training use to adjust a model?",
+          "options": [
+            "Examples",
+            "A perfect UI",
+            "Folder colors"
+          ],
+          "correct": 0,
+          "explanation": "Training adjusts a model using data or examples."
+        },
+        {
+          "text": "Why test on different photos?",
+          "options": [
+            "To rename the training set",
+            "To make the app look nicer",
+            "To see how it handles new examples"
+          ],
+          "correct": 2,
+          "explanation": "Unseen examples help check generalization."
+        },
+        {
+          "text": "Which approach can make mistakes?",
+          "options": [
+            "Only written rules",
+            "Only ML",
+            "Both"
+          ],
+          "correct": 2,
+          "explanation": "Both rules and learned models can fail."
+        }
+      ]
+    },
+    {
+      "id": "day-6",
+      "day": 6,
+      "title": "Find your first bug.",
+      "subtitle": "Use an error as a clue.",
+      "objective": "Find a missing quote and explain why the change fixes it.",
+      "steps": [
+        {
+          "title": "What is a bug?",
+          "tag": "A normal part of coding",
+          "paragraphs": [
+            "A bug is a problem in a program. Debugging means finding the cause and fixing it.",
+            "An error message gives you a clue. Start with the line it mentions and compare it with a working example."
+          ],
+          "visual": "debug",
+          "takeaway": "Find the cause before changing lots of things."
+        },
+        {
+          "title": "Look for pairs",
+          "tag": "A small investigation",
+          "paragraphs": [
+            "Our print instructions need paired quotation marks and parentheses. If a quote is missing, Python cannot tell where the text ends.",
+            "Look carefully at this broken line. Do not change the words yet. Find what is missing."
+          ],
+          "code": "print(\"Hello)",
+          "takeaway": "A missing character can change how code is read."
+        },
+        {
+          "title": "Change, run, explain",
+          "tag": "Check the fix",
+          "paragraphs": [
+            "Make one small change, run the code again, and compare the result with what you wanted.",
+            "Explain why the change worked. That explanation is more useful than copying a corrected line without understanding it."
+          ],
+          "visual": "check",
+          "takeaway": "A fix is stronger when you can explain it."
+        }
+      ],
+      "practice": {
+        "kind": "python",
+        "title": "Repair this line",
+        "instruction": "Run the broken code once to read the error. Then fix the missing character and run it again. Tell the tutor what you changed and why.",
+        "starter": "print(\"I can find this bug.)"
+      },
+      "quiz": [
+        {
+          "text": "What does debugging mean?",
+          "options": [
+            "Finding and fixing a problem",
+            "Typing faster",
+            "Training every program"
+          ],
+          "correct": 0,
+          "explanation": "Debugging is investigating the cause and fixing it."
+        },
+        {
+          "text": "What should you read when code fails?",
+          "options": [
+            "Only the app title",
+            "The error message",
+            "A random file"
+          ],
+          "correct": 1,
+          "explanation": "The error message often points toward the problem."
+        },
+        {
+          "text": "Why change one small thing first?",
+          "options": [
+            "It guarantees perfection",
+            "It avoids running code",
+            "It helps identify what affected the result"
+          ],
+          "correct": 2,
+          "explanation": "Small changes make causes easier to track."
+        },
+        {
+          "text": "After a fix, what should you do?",
+          "options": [
+            "Assume it works",
+            "Run it and check the result",
+            "Hide the code"
+          ],
+          "correct": 1,
+          "explanation": "Run the corrected code to verify the behavior."
+        }
+      ]
+    },
+    {
+      "id": "day-7",
+      "day": 7,
+      "title": "Your first checkpoint.",
+      "subtitle": "Bring your first week together.",
+      "objective": "Explain an AI interaction, run a small program, and identify what still needs practice.",
+      "steps": [
+        {
+          "title": "What you can explain",
+          "tag": "Review, not a race",
+          "paragraphs": [
+            "A prompt goes to an AI; an output comes back. AI is the broad field, ML learns patterns from examples, and deep learning is a kind of ML.",
+            "A file is one saved item. A folder holds items. Python runs instructions, and print can show text."
+          ],
+          "visual": "family",
+          "takeaway": "Use your own words. You do not need a memorized definition."
+        },
+        {
+          "title": "A tiny demonstration",
+          "tag": "Show your understanding",
+          "paragraphs": [
+            "Build a small welcome program in the practice pad. It should print a greeting and one thing you want to learn.",
+            "Choose your own sentences. Before running, predict both lines. After running, explain what print does."
+          ],
+          "visual": "program",
+          "takeaway": "Your own attempt is the evidence."
+        },
+        {
+          "title": "Be honest about readiness",
+          "tag": "Plan the next step",
+          "paragraphs": [
+            "A quiz score is useful, but it does not prove you can build independently. Ask the tutor to check your explanation and your code.",
+            "If something is unclear, practice it again. Completing this page records a classroom activity; it does not automatically award professional skills or a level badge."
+          ],
+          "visual": "check",
+          "takeaway": "Move forward when the foundations make sense."
+        }
+      ],
+      "practice": {
+        "kind": "python",
+        "title": "Build your welcome program",
+        "instruction": "Write your own two print instructions: a greeting and something you want to learn. The pad is blank so you can make your own attempt.",
+        "starter": ""
+      },
+      "quiz": [
+        {
+          "text": "An AI writes a reply. What is the reply called?",
+          "options": [
+            "The output",
+            "The prompt",
+            "A folder"
+          ],
+          "correct": 0,
+          "explanation": "The reply is the result produced by the AI."
+        },
+        {
+          "text": "Which statement describes the groups correctly?",
+          "options": [
+            "All AI is deep learning",
+            "Deep learning is part of ML, which is part of AI",
+            "ML is a folder"
+          ],
+          "correct": 1,
+          "explanation": "The groups fit inside one another."
+        },
+        {
+          "text": "What should you do before running an edited file?",
+          "options": [
+            "Delete it",
+            "Rename Windows",
+            "Save it"
+          ],
+          "correct": 2,
+          "explanation": "Saving writes the edited version to disk."
+        },
+        {
+          "text": "What is useful evidence of understanding?",
+          "options": [
+            "Opening the lesson",
+            "Copying without reading",
+            "Explaining and checking your own work"
+          ],
+          "correct": 2,
+          "explanation": "Your explanation and tested attempt show understanding."
+        }
+      ]
+    }
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "title": "AI Explorer",
+      "days": "1–7",
+      "description": "Understand AI and run your first instructions."
+    },
+    {
+      "level": 1,
+      "title": "Python Foundations",
+      "days": "8–70",
+      "description": "Write small programs and learn to find mistakes."
+    },
+    {
+      "level": 2,
+      "title": "Data Explorer",
+      "days": "71–112",
+      "description": "Work with files, APIs, tables, and charts."
+    },
+    {
+      "level": 3,
+      "title": "Machine Learning",
+      "days": "113–168",
+      "description": "Train models and check their predictions."
+    },
+    {
+      "level": 4,
+      "title": "Neural Networks",
+      "days": "169–210",
+      "description": "Explore how layered models learn."
+    },
+    {
+      "level": 5,
+      "title": "LLM Applications",
+      "days": "211–259",
+      "description": "Build useful tools around language models."
+    },
+    {
+      "level": 6,
+      "title": "Knowledge and RAG",
+      "days": "260–308",
+      "description": "Answer questions using documents and sources."
+    },
+    {
+      "level": 7,
+      "title": "Agents and Automation",
+      "days": "309–336",
+      "description": "Give AI tools clear permissions and limits."
+    },
+    {
+      "level": 8,
+      "title": "Professional Practice",
+      "days": "337–365",
+      "description": "Test, document, and deliver a capstone."
+    }
+  ],
+  "recordings": {
+    "preview": "audio/voice-preview.mp3",
+    "day-1": {
+      "steps": {
+        "0": "audio/day-1-step-0.mp3",
+        "1": "audio/day-1-step-1.mp3",
+        "2": "audio/day-1-step-2.mp3",
+        "3": "audio/day-1-step-3.mp3",
+        "5": "audio/day-1-step-5.mp3"
+      },
+      "quiz": {
+        "0": "audio/day-1-quiz-0.mp3",
+        "1": "audio/day-1-quiz-1.mp3",
+        "2": "audio/day-1-quiz-2.mp3",
+        "3": "audio/day-1-quiz-3.mp3"
+      }
+    },
+    "day-2": {
+      "steps": {
+        "0": "audio/day-2-step-0.mp3",
+        "1": "audio/day-2-step-1.mp3",
+        "2": "audio/day-2-step-2.mp3",
+        "3": "audio/day-2-step-3.mp3",
+        "5": "audio/day-2-step-5.mp3"
+      },
+      "quiz": {
+        "0": "audio/day-2-quiz-0.mp3",
+        "1": "audio/day-2-quiz-1.mp3",
+        "2": "audio/day-2-quiz-2.mp3",
+        "3": "audio/day-2-quiz-3.mp3"
+      }
+    },
+    "day-3": {
+      "steps": {
+        "0": "audio/day-3-step-0.mp3",
+        "1": "audio/day-3-step-1.mp3",
+        "2": "audio/day-3-step-2.mp3",
+        "3": "audio/day-3-step-3.mp3",
+        "5": "audio/day-3-step-5.mp3"
+      },
+      "quiz": {
+        "0": "audio/day-3-quiz-0.mp3",
+        "1": "audio/day-3-quiz-1.mp3",
+        "2": "audio/day-3-quiz-2.mp3",
+        "3": "audio/day-3-quiz-3.mp3"
+      }
+    },
+    "day-4": {
+      "steps": {
+        "0": "audio/day-4-step-0.mp3",
+        "1": "audio/day-4-step-1.mp3",
+        "2": "audio/day-4-step-2.mp3",
+        "3": "audio/day-4-step-3.mp3",
+        "5": "audio/day-4-step-5.mp3"
+      },
+      "quiz": {
+        "0": "audio/day-4-quiz-0.mp3",
+        "1": "audio/day-4-quiz-1.mp3",
+        "2": "audio/day-4-quiz-2.mp3",
+        "3": "audio/day-4-quiz-3.mp3"
+      }
+    },
+    "day-5": {
+      "steps": {
+        "0": "audio/day-5-step-0.mp3",
+        "1": "audio/day-5-step-1.mp3",
+        "2": "audio/day-5-step-2.mp3",
+        "3": "audio/day-5-step-3.mp3",
+        "5": "audio/day-5-step-5.mp3"
+      },
+      "quiz": {
+        "0": "audio/day-5-quiz-0.mp3",
+        "1": "audio/day-5-quiz-1.mp3",
+        "2": "audio/day-5-quiz-2.mp3",
+        "3": "audio/day-5-quiz-3.mp3"
+      }
+    },
+    "day-6": {
+      "steps": {
+        "0": "audio/day-6-step-0.mp3",
+        "1": "audio/day-6-step-1.mp3",
+        "2": "audio/day-6-step-2.mp3",
+        "3": "audio/day-6-step-3.mp3",
+        "5": "audio/day-6-step-5.mp3"
+      },
+      "quiz": {
+        "0": "audio/day-6-quiz-0.mp3",
+        "1": "audio/day-6-quiz-1.mp3",
+        "2": "audio/day-6-quiz-2.mp3",
+        "3": "audio/day-6-quiz-3.mp3"
+      }
+    },
+    "day-7": {
+      "steps": {
+        "0": "audio/day-7-step-0.mp3",
+        "1": "audio/day-7-step-1.mp3",
+        "2": "audio/day-7-step-2.mp3",
+        "3": "audio/day-7-step-3.mp3",
+        "5": "audio/day-7-step-5.mp3"
+      },
+      "quiz": {
+        "0": "audio/day-7-quiz-0.mp3",
+        "1": "audio/day-7-quiz-1.mp3",
+        "2": "audio/day-7-quiz-2.mp3",
+        "3": "audio/day-7-quiz-3.mp3"
+      }
+    }
+  }
+}
